@@ -7,8 +7,10 @@
   <name>wordcount</name>
   <description>FIXME: write description</description>
   <scm>
-    <tag>3e491cfe67639de04fb8fe7d94ca1d6a3dd0b5db</tag>
-    <url/>
+    <connection>scm:git:git://github.com/dkincaid/wordcount.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/dkincaid/wordcount.git</developerConnection>
+    <tag>32aaacd85fe3af429e9ea60945ba848cf659be7e</tag>
+    <url>https://github.com/dkincaid/wordcount</url>
   </scm>
   <build>
     <sourceDirectory>src/clj</sourceDirectory>
