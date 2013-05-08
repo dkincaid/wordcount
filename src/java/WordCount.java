@@ -25,7 +25,7 @@ public class WordCount extends Configured implements Tool {
 
         conf.set("mapred.job.tracker", "mapr-vm:9001");
         conf.set("fs.default.name", "maprfs://mapr-vm:7222");
-        conf.set("fs.maprfs.impl", "com.mapr.fs.MapRFileSystem");
+//        conf.set("fs.maprfs.impl", "com.mapr.fs.MapRFileSystem");
 
         Job job = new Job(conf, "Word count");
         job.setJarByClass(WordCount.class);
